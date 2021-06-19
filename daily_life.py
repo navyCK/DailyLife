@@ -1,21 +1,30 @@
 class DailyLife:
-    def __init__(self, habit, activity, work):
-        self.habit = habit
-        self.activity = activity
-        self.work = work
+    def __init__(self, time, location, description):
+        self.time = time
+        self.location = location
+        self.description = description
     
-    def getHabit(self):
-        print("저의 습관은", self.habit, "입니다.")     # 방법 1
+    def getTime(self):
+        return 'f{self.time}'     
     
-    def getActivity(self):
-        print(f"저의 활동은 {self.activity}입니다.")    # 방법 2
+    def getLocation(self):
+        return 'f{self.location}'         
 
-    def getWork(self):
-        print(f"제가 하는 일은 {self.work}입니다.")
+    def getDescription(self):
+        return 'f{self.description}'
 
-daily_life_joo = DailyLife('머리 만지기', '축구', '앱 만들기')
-daily_life_joo.getHabit()
-daily_life_joo.getActivity()
-daily_life_joo.getWork()
+    def show(self):
+      print(f"{self.time}에 {self.location}에서 {self.description}를 합니다.")
+        
+
+for i in range(3):
+  arr = ["일", "활동", "습관"]
+
+  time = input("시간 : ")
+  location = input("장소 : ")
+  description = input("내가 하는 " + arr[i] + " : ")
+
+  daily_life = DailyLife(time, location, description)
+  daily_life.show()
 
 # 참고 : https://rfriend.tistory.com/516
