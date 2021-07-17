@@ -184,7 +184,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 mark, .mark {
@@ -2966,24 +2966,24 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #AEAEAE;
+  border-color: #AEAEAE;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #DCDCDC;
+  border-color: #DCDCDC;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #C5C5C5;
+  border-color: #C5C5C5;
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #50817e;
-  border-color: #4b7976;
+  background-color: #C5C5C5;
+  border-color: #C5C5C5;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
@@ -7527,7 +7527,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #64a19d !important;
+  color: #AEAEAE !important;
 }
 
 .text-secondary {
@@ -11075,7 +11075,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #E7E7E7;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11085,7 +11085,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: black;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11133,7 +11133,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, #000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11268,4 +11268,19 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.black_big {
+  color: black;
+  font-size: 4rem;
+}
+
+.black_midium {
+  color: black;
+  font-size: 20rem;
+}
+
+.black_small {
+  color: black;
+  font-size: 1rem;
 }
