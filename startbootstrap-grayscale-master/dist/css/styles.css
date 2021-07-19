@@ -3981,6 +3981,7 @@ textarea.form-control-lg {
   color: #64a19d;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  font-size: 1.3em;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -11297,9 +11298,7 @@ body {
 	color: #fff;
 	cursor: pointer;
 }
-.menu .main.on {
-	/* background: #333; */
-}
+
 .menu .sub {
 	display: none;
 }
@@ -11308,6 +11307,7 @@ body {
 	line-height: 35px;
 	/* background: #fff; */
 	border-top: 1px solid #eaeaea;
+  font-size: 0.9em;
 }
 .menu .sub li:first-child {
 	border-top: none;
@@ -11341,5 +11341,21 @@ nav ul {
 
 nav li {
   margin: 5px;
-  display: block; 
+  display: block;
 }
+
+.container::-webkit-scrollbar {
+  width: 15px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.container::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
