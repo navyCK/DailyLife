@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <title>우성전기</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon2.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -15,6 +15,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <meta name="google-site-verification" content="wr-N0dk1_GWM74lvipMfsm0sRJgComoERGNAMkJRJgw" />
+        <!-- 추가한 js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/menu.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,9 +30,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">History</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Patent</a></li>
+                        <li class="menu nav-item"><a class="nav-link main" href="#about">History</a></li>
+                        <li class="menu nav-item"><a class="nav-link main" href="#projects">Products</a>
+                            <nav>
+                                <ul class="sub">
+                                    <li><a href="#projects">와이어</a></li>
+                                    <li><a href="#projects">튜브</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="menu nav-item"><a class="nav-link main" href="#signup">Patent</a>
+                            <nav>
+                                <ul class="sub">
+                                    <li><a href="#signup">특허 현황</a></li>
+                                    <li><a href="#signup">인증 현황</a></li>
+                                    <li><a href="#signup">공급 업체</a></li>
+                                </ul>
+                            </nav>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +56,7 @@
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
-                    <div class="text-center">
+                    <div class="text-center margin-top5">
                         <div class="mx-auto my-0 text-uppercase black_big"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/woosung4.png" alt="..." /></div>
                         <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써 모든 산업의 기반이 되는 소재 산업 분야에서 독보적인 두각을 나타내어 세계적으로 경쟁력을 갖춘 회사입니다. </h2>                         -->
                         <div class="mx-auto mt-2 mb-5 black_small">우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써, 
@@ -55,10 +73,12 @@
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">
-                                    <a href='https://map.naver.com/v5/entry/place/12833322?c=14172482.6072380,4488384.3869776,13,0,0,0,dh&placePath=%2Fhome%3Fentry=pll'
-                                       target="_black">
                                         경기도 광주시 곤지암읍 독고개길 87
-                                    </a>
+                                        <br><br>
+                                        <a href='https://map.naver.com/v5/entry/place/12833322?c=14172482.6072380,4488384.3869776,13,0,0,0,dh&placePath=%2Fhome%3Fentry=pll'
+                                           target="_black">NAVER</a>&nbsp;&nbsp;
+                                        <a href='https://www.google.com/maps/place/%EA%B2%BD%EA%B8%B0%EB%8F%84+%EA%B4%91%EC%A3%BC%EC%8B%9C+%EA%B3%A4%EC%A7%80%EC%95%94%EC%9D%8D+%EB%8F%85%EA%B3%A0%EA%B0%9C%EA%B8%B8+87/data=!4m2!3m1!1s0x3563552366df7257:0xd4f7219624f44ede?sa=X&ved=2ahUKEwjWo4vvtu7xAhUEZ94KHXPCDXgQ8gEwAHoECAoQAQ'
+                                           target="_black">GOOGLE</a>
                                 </div>
                             </div>
                         </div>
