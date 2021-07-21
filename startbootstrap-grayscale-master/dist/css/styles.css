@@ -11134,7 +11134,12 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to right, rgba(20, 20, 20, 0) 10%,
+                                        rgba(20, 20, 20, 0.25) 25%,
+                                        rgba(20, 20, 20, 0.5) 50%,
+                                        rgba(20, 20, 20, 0.75) 75%,
+                                        rgba(20, 20, 20, 1) 100%), 
+                              url("../assets/img/bg_4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11185,7 +11190,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11213,7 +11218,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("../assets/img/white.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11276,13 +11281,28 @@ body {
   font-size: 4rem;
 }
 
-.black_midium {
+.black_normal {
   color: black;
   font-size: 20rem;
 }
 
 .black_small {
   color: black;
+  font-size: 1rem;
+}
+
+.white_big {
+  color: white;
+  font-size: 4rem;
+}
+
+.white_normal {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.white_small {
+  color: white;
   font-size: 1rem;
 }
 
@@ -11326,7 +11346,7 @@ body {
 }
 
 .margin-top5 {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 nav ul {
@@ -11359,3 +11379,19 @@ nav li {
   box-shadow: inset 0px 0px 5px white;
 }
 
+.black_box {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  opacity: 0.7;
+  font-size: large;
+  font-weight: normal;
+}
+
+.white_box {
+  background-color: white;
+  padding: 30px;
+  opacity: 0.7;
+  font-size: large;
+  font-weight: normal;
+}

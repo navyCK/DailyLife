@@ -18,6 +18,10 @@
         <!-- 추가한 js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/menu.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+        <!-- 추가한 css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -34,8 +38,8 @@
                         <li class="menu nav-item"><a class="nav-link main" href="#projects">Products</a>
                             <nav>
                                 <ul class="sub">
-                                    <li><a href="#projects">와이어</a></li>
-                                    <li><a href="#projects">튜브</a></li>
+                                    <li><a href="#projects_wire">와이어</a></li>
+                                    <li><a href="#projects_tube">튜브</a></li>
                                 </ul>
                             </nav>
                         </li>
@@ -56,13 +60,11 @@
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
-                    <div class="text-center margin-top5">
-                        <div class="mx-auto my-0 text-uppercase black_big"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/woosung4.png" alt="..." /></div>
-                        <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써 모든 산업의 기반이 되는 소재 산업 분야에서 독보적인 두각을 나타내어 세계적으로 경쟁력을 갖춘 회사입니다. </h2>                         -->
-                        <div class="mx-auto mt-2 mb-5 black_small">우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써, 
-                            <br>모든 산업의 기반이 되는 소재 산업 분야에서 독보적인 두각을 나타내어 세계적으로 경쟁력을 갖춘 회사입니다.</div>
+                    <div class="text-center">
+                        <div class="mx-auto my-0 text-uppercase black_big mb-5"><img class="img-fluid mb-3 mb-lg-0 margin-top5" src="assets/img/woosung5.png" alt="..." /></div>
                         <a class="btn btn-primary" href="#about">Get Started</a>
-                        <!-- Contact-->
+                        
+        <!-- Contact-->
         <section class="contact-section">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -70,9 +72,9 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0 text-white">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">
+                                <div class="small text-white">
                                         경기도 광주시 곤지암읍 독고개길 87
                                         <br><br>
                                         87, Dokgogae-gil, Gonjiam-eup, Gwangju-si, Gyeonggi-do, Republic of Korea
@@ -89,9 +91,9 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
+                                <h4 class="text-uppercase m-0 text-white">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">강주호@naver.com</div>
+                                <div class="small text-white">강주호@naver.com</div>
                             </div>
                         </div>
                     </div>
@@ -99,9 +101,9 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0 text-white">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">010-9037-6380</div>
+                                <div class="small text-white">010-9037-6380</div>
                             </div>
                         </div>
                     </div>
@@ -117,13 +119,16 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">고객님과의 약속</h2>
+                        <div class="mx-auto mt-2 mb-5 white_small">우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써, 
+                            <br><br>모든 산업의 기반이 되는 소재 산업 분야에서 독보적인 두각을 나타내어<br>세계적으로 경쟁력을 갖춘 회사입니다.</div>
+
+                        <!-- <h2 class="text-white mb-4">고객님과의 약속</h2>
                         <p class="text-white-50">
                             국내 최초 절연 튜브 및 수축튜브를 개발하여 국내 굴지기업의 가전업체와 세계적인 기업의 가전업체에 
                             <br>공급함으로써 자부심을 가지고,
                             <br><br>앞으로도 모든 역량을 제품개발에 전력투구함으로써 세계적인 경쟁력을 갖춘 기업으로 거듭날것을 
                             <br>약속할 것입니다.
-                        </p>
+                        </p> -->
 
                         <div class="container" style="overflow-x: hidden; height: 30em; padding:10px; background-color:white;">
                             연혁 테스트 텍스트입니다. <br>연혁 테스트 텍스트입니다. <br>연혁 테스트 텍스트입니다. <br>연혁 테스트 텍스트입니다. <br>
@@ -145,49 +150,121 @@
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/products_01_4.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>제품 소개</h4>
+                            <p class="text-black-50 mb-0">
+                                사진을 클릭하면 더 많은 사진을 볼 수 있습니다.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                
+                <section class="projects-section bg-light" id="projects_wire">
+                    <!-- Project 1 Row-->
+                    <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <a href="assets/img/products_01_1.jpg" data-title="제품 사진 1" data-lightbox="example-set"><img class="img-fluid" src="assets/img/products_01_1.jpg" alt="..." /></a>
+                            <a style="display:none;" href="assets/img/products_01_2.jpg" data-title="제품 사진 2" data-lightbox="example-set"><img src="assets/img/products_01_2.jpg" alt=""></a>
+                            <a style="display:none;" href="assets/img/products_01_3.jpg" data-title="제품 사진 3" data-lightbox="example-set"><img src="assets/img/products_01_3.jpg" alt=""></a>
+                            <a style="display:none;" href="assets/img/products_01_4.jpg" data-title="제품 사진 4" data-lightbox="example-set"><img src="assets/img/products_01_4.jpg" alt=""></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                                        <h4 class="text-white">제품 1 사진입니다.</h4>
+                                        <p class="mb-0 text-white-50">제품 1 설명입니다.</p>
+                                        <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                    <!-- Project 2 Row-->
+                    <div class="row gx-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <a href="assets/img/products_02_1.jpg" data-title="제품 사진 1" data-lightbox="example-set"><img class="img-fluid" src="assets/img/products_02_1.jpg" alt="..." /></a>
+                            <a style="display:none;" href="assets/img/products_02_2.jpg" data-title="제품 사진 2" data-lightbox="example-set"><img src="assets/img/products_02_2.jpg" alt=""></a>
+                            <a style="display:none;" href="assets/img/products_02_3.jpg" data-title="제품 사진 3" data-lightbox="example-set"><img src="assets/img/products_02_3.jpg" alt=""></a>
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">제품 2 사진입니다.</h4>
+                                        <p class="mb-0 text-white-50">제품 2 설명입니다.</p>
+                                        <hr class="d-none d-lg-block mb-0 me-0" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+
+                <section class="projects-section bg-light" id="projects_tube">
+                    <!-- Project 3 Row-->
+                    <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <a href="assets/img/products_03_1.jpg" data-title="제품 사진 1" data-lightbox="example-set"><img class="img-fluid" src="assets/img/products_03_1.jpg" alt="..." /></a>
+                            <a style="display:none;" href="assets/img/products_03_2.jpg" data-title="제품 사진 2" data-lightbox="example-set"><img src="assets/img/products_03_2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                                        <h4 class="text-white">제품 3 사진입니다.</h4>
+                                        <p class="mb-0 text-white-50">제품 3 설명입니다.</p>
+                                        <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 Row-->
+                    <div class="row gx-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <a href="assets/img/products_04_1.jpg" data-title="제품 사진 1" data-lightbox="example-set"><img class="img-fluid" src="assets/img/products_04_1.jpg" alt="..." /></a>
+                            <a style="display:none;" href="assets/img/products_04_2.jpg" data-title="제품 사진 2" data-lightbox="example-set"><img src="assets/img/products_04_2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">제품 4 사진입니다.</h4>
+                                        <p class="mb-0 text-white-50">제품 4 설명입니다.</p>
+                                        <hr class="d-none d-lg-block mb-0 me-0" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                
+
+
+                
             </div>
         </section>
         <!-- Signup-->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/products_01_4.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>특허 현황</h4>
+                            <p class="text-black-50 mb-0">
+                                특허 현황입니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
@@ -231,7 +308,7 @@
         </section>
         
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">&copy; 2021. WOOSUNG ELECTRONIC Co., Ltd. all rights reserved.</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
