@@ -2990,8 +2990,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #251884;
+  border-color: #251884;
 }
 
 .btn-secondary {
@@ -3265,27 +3265,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #64a19d;
-  border-color: #64a19d;
+  color: #251884;
+  border-color: #251884;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #251884;
+  border-color: #251884;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #251884;
+  border-color: #251884;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #64a19d;
+  color: #251884;
   background-color: transparent;
 }
 
@@ -3516,7 +3516,7 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #64a19d;
+  color: #251884;
   text-decoration: underline;
 }
 .btn-link:hover {
@@ -3815,7 +3815,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #64a19d;
+  background-color: #251884;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -3856,7 +3856,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #251884;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -7147,6 +7147,12 @@ textarea.form-control-lg {
 .mt-9 {
   margin-top: 9rem;
 }
+.mt-11 {
+  margin-top: 11rem;
+}
+.mt-13 {
+  margin-top: 13rem;
+}
 
 .mt-auto {
   margin-top: auto !important;
@@ -7202,6 +7208,10 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-9 {
+  margin-bottom: 9rem !important;
 }
 
 .mb-auto {
@@ -11063,8 +11073,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #251884;
+  border: 1px solid #251884;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11149,9 +11159,9 @@ body {
   background: linear-gradient(to right, rgba(20, 20, 20, 0) 10%,
                                         rgba(20, 20, 20, 0.25) 25%,
                                         rgba(20, 20, 20, 0.5) 50%,
-                                        rgba(20, 20, 20, 0.75) 75%,
-                                        rgba(20, 20, 20, 1) 100%), 
-                              url("../assets/img/bg_4.jpg");
+                                        rgba(20, 20, 20, 0.25) 75%,
+                                        rgba(20, 20, 20, 0) 100%), 
+                              url("../assets/img/new_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11196,7 +11206,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: #fff;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11422,4 +11432,36 @@ nav li {
   font-family: 'EliceDigitalBaeum_Bold';
   letter-spacing: 0.2em;
   font-size: 5em;
+}
+
+@font-face {
+  font-family: 'HeirofLightBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font_Heirof {
+  font-family: 'HeirofLightBold';
+  letter-spacing: 0.2em;
+  font-size: 5em;
+}
+
+@font-face {
+  font-family: 'MapoDPPA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font_Mapo {
+  font-family: 'MapoDPPA';
+  letter-spacing: 0.2em;
+  font-size: 5em;
+}
+
+.font_Mapo2 {
+  font-family: 'MapoDPPA';
+  letter-spacing: 0.2em;
+  font-size: 1em;
 }
