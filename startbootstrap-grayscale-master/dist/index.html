@@ -34,8 +34,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="menu nav-item"><a class="nav-link main font_Mapo2" href="#about">회사 소개</a></li>
-                        <li class="menu nav-item"><a class="nav-link main font_Mapo2" href="#projects">제품</a>
+                        <li class="menu nav-item"><a id="category1" data-lang="category1" class="nav-link main font_Mapo2" href="#about">[category1]</a></li>
+                        <li class="menu nav-item"><a id="category2" data-lang="category2" class="nav-link main font_Mapo2" href="#projects">[category2]</a>
                             <nav>
                                 <ul class="sub font_Mapo2">
                                     <li><a href="#projects_wire">와이어</a></li>
@@ -43,7 +43,7 @@
                                 </ul>
                             </nav>
                         </li>
-                        <li class="menu nav-item"><a class="nav-link main font_Mapo2" href="#patent">특허 및 인증</a>
+                        <li class="menu nav-item"><a id="category3" data-lang="category3" class="nav-link main font_Mapo2" href="#patent">[category3]</a>
                             <nav>
                                 <ul class="sub font_Mapo2">
                                     <li><a href="#patent">특허 현황</a></li>
@@ -65,6 +65,9 @@
                             <!-- <img class="img-fluid mb-3 mb-lg-0 margin-top5" src="assets/img/woosung5.png" alt="..." /> -->
                             WOOSUNG&nbsp;ELECTRONIC
                         </div>
+                        <p id="language"><span data-lang="now_sys_lang">[now-sys-lang]</span> : <span id="locale"></span></p>
+                        <button id="btn-en">English</button> <button id="btn-ko">한국어</button>
+                        <script src="js/language.js"></script>
                         <!-- <a class="btn btn-primary mt-4" href="#about">Get Started</a> -->
                         
         <!-- Contact-->

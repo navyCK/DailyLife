@@ -11457,11 +11457,19 @@ nav li {
 .font_Mapo {
   font-family: 'MapoDPPA';
   letter-spacing: 0.2em;
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .font_Mapo2 {
   font-family: 'MapoDPPA';
   letter-spacing: 0.2em;
   font-size: 1em;
+}
+
+@media (min-width: 1400px) {
+  .font_Mapo {
+    font-family: 'MapoDPPA';
+    letter-spacing: 0.2em;
+    font-size: 5em;
+  }
 }
