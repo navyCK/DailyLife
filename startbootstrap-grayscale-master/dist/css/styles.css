@@ -11473,3 +11473,8 @@ nav li {
     font-size: 5em;
   }
 }
+
+.btn-size {
+  width: 150px;
+  height: 60px;
+}

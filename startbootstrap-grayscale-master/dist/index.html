@@ -38,17 +38,17 @@
                         <li class="menu nav-item"><a id="category2" data-lang="category2" class="nav-link main font_Mapo2" href="#projects">[category2]</a>
                             <nav>
                                 <ul class="sub font_Mapo2">
-                                    <li><a href="#projects_wire">와이어</a></li>
-                                    <li><a href="#projects_tube">튜브</a></li>
+                                    <li><a id="category2_1" data-lang="category2_1" href="#projects_wire">[category2_1]</a></li>
+                                    <li><a id="category2_2" data-lang="category2_2" href="#projects_tube">[category2_2]</a></li>
                                 </ul>
                             </nav>
                         </li>
                         <li class="menu nav-item"><a id="category3" data-lang="category3" class="nav-link main font_Mapo2" href="#patent">[category3]</a>
                             <nav>
                                 <ul class="sub font_Mapo2">
-                                    <li><a href="#patent">특허 현황</a></li>
-                                    <li><a href="#certification">인증 현황</a></li>
-                                    <li><a href="#supplier">공급 업체</a></li>
+                                    <li><a id="category3_1" data-lang="category3_1" href="#patent">[category3_1]</a></li>
+                                    <li><a id="category3_2" data-lang="category3_2" href="#certification">[category3_2]</a></li>
+                                    <li><a id="category3_3" data-lang="category3_3" href="#supplier">[category3_3]</a></li>
                                 </ul>
                             </nav>
                         </li>
@@ -66,7 +66,7 @@
                             WOOSUNG&nbsp;ELECTRONIC
                         </div>
                         <p id="language"><span data-lang="now_sys_lang">[now-sys-lang]</span> : <span id="locale"></span></p>
-                        <button id="btn-en">English</button> <button id="btn-ko">한국어</button>
+                        <button id="btn-en" class="btn btn-primary btn-size mt-2">English</button> <button id="btn-ko" class="btn btn-primary btn-size mt-2">한국어</button>
                         <script src="js/language.js"></script>
                         <!-- <a class="btn btn-primary mt-4" href="#about">Get Started</a> -->
                         
@@ -78,17 +78,18 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Address</h4>
+                                <h4 id="box1" data-lang="box1" class="text-uppercase m-0 text-white">Address</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-white">
-                                        경기도 광주시 곤지암읍 독고개길 87
-                                        <br><br>
-                                        87, Dokgogae-gil, Gonjiam-eup, Gwangju-si, Gyeonggi-do, Republic of Korea
-                                        <br><br>
+                                    <p id="address" data-lang="address">경기도 광주시 곤지암읍 독고개길 87</p>
+                                    <p>
                                         <a href='https://map.naver.com/v5/entry/place/12833322?c=14172482.6072380,4488384.3869776,13,0,0,0,dh&placePath=%2Fhome%3Fentry=pll'
                                            target="_black">NAVER</a>&nbsp;&nbsp;
                                         <a href='https://www.google.com/maps/place/%EA%B2%BD%EA%B8%B0%EB%8F%84+%EA%B4%91%EC%A3%BC%EC%8B%9C+%EA%B3%A4%EC%A7%80%EC%95%94%EC%9D%8D+%EB%8F%85%EA%B3%A0%EA%B0%9C%EA%B8%B8+87/data=!4m2!3m1!1s0x3563552366df7257:0xd4f7219624f44ede?sa=X&ved=2ahUKEwjWo4vvtu7xAhUEZ94KHXPCDXgQ8gEwAHoECAoQAQ'
                                            target="_black">GOOGLE</a>
+                                    </p>
+                                        
+                                        
                                 </div>
                             </div>
                         </div>
@@ -97,9 +98,9 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Email</h4>
+                                <h4 id="box2" data-lang="box2" class="text-uppercase m-0 text-white">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-white">강주호@naver.com</div>
+                                <div id="email" data-lang="email" class="small text-white">example@naver.com</div>
                             </div>
                         </div>
                     </div>
@@ -107,9 +108,9 @@
                         <div class="py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0 text-white">Phone</h4>
+                                <h4 id="box3" data-lang="box3" class="text-uppercase m-0 text-white">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-white">010-9037-6380</div>
+                                <div id="phone" data-lang="phone" class="small text-white">010-1234-5678</div>
                             </div>
                         </div>
                     </div>

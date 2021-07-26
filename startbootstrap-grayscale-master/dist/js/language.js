@@ -3,18 +3,44 @@ const lang = {
     en: {
         title: "Hello.",
         content: "This is a content area",
-        now_sys_lang: "System locale",
+        now_sys_lang: "current area",
         category1: "History",
         category2: "Product",
+        category2_1: "wires",
+        category2_2: "tubes",
         category3: "Patent",
+        category3_1: "patent",
+        category3_2: "certification",
+        category3_3: "supplier",
+        address: "87, Dokgogae-gil, Gonjiam-eup, Gwangju-si, Gyeonggi-do, Republic of Korea",
+        email: "example@gmail.com",
+        phone: "+82-10-1234-5678",
+        box1: "ADDRESS",
+        box2: "EMAIL",
+        box3: "PHONE",
+
+
     },
     ko: {
         title: "안녕하세요.",
         content: "여기는 컨텐츠 구역입니다.",
-        now_sys_lang: "시스템 로캘",
+        now_sys_lang: "현재 지역",
         category1: "회사 소개",
         category2: "제품",
+        category2_1: "와이어",
+        category2_2: "튜브",
         category3: "특허 및 인증",
+        category3_1: "특허 현황",
+        category3_2: "인증 현황",
+        category3_3: "공급 업체",
+        address: "경기도 광주시 곤지암읍 독고개길 87",
+        email: "example@naver.com",
+        phone: "010-1234-5678",
+        box1: "주소",
+        box2: "이메일",
+        box3: "연락처",
+
+        
     }
 }
 
