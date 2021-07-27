@@ -53,6 +53,18 @@
                             </nav>
                         </li>
                     </ul>
+                    <div class="language-dropdown">
+                        <select id="dropdown" name="dropdown" onchange="changeLanguage()">
+                            <option value="" selected disabled>language</option>
+                            <option value="drop-ko">한국어</option>
+                            <option value="drop-en">English</option>
+                        </select>
+                        <p id="language" class="display-none"><span data-lang="now_sys_lang">[now-sys-lang]</span> : <span id="locale"></span></p>
+                        <div id="btn_group">
+                            <!-- <button id="btn-en" class="test_btn1">English</button> <button id="btn-ko" class="test_btn2">한국어</button> -->
+                            <script src="js/language.js"></script>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -60,14 +72,12 @@
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
-                    <div class="text-center mt-13">
+                    <div class="text-center mt-9">
                         <div class="mx-auto my-0 text-uppercase white_big mb-5 font_Mapo">
                             <!-- <img class="img-fluid mb-3 mb-lg-0 margin-top5" src="assets/img/woosung5.png" alt="..." /> -->
                             WOOSUNG&nbsp;ELECTRONIC
                         </div>
-                        <p id="language"><span data-lang="now_sys_lang">[now-sys-lang]</span> : <span id="locale"></span></p>
-                        <button id="btn-en" class="btn btn-primary btn-size mt-2">English</button> <button id="btn-ko" class="btn btn-primary btn-size mt-2">한국어</button>
-                        <script src="js/language.js"></script>
+                        
                         <!-- <a class="btn btn-primary mt-4" href="#about">Get Started</a> -->
                         
         <!-- Contact-->
@@ -84,9 +94,9 @@
                                     <p id="address" data-lang="address">경기도 광주시 곤지암읍 독고개길 87</p>
                                     <p>
                                         <a href='https://map.naver.com/v5/entry/place/12833322?c=14172482.6072380,4488384.3869776,13,0,0,0,dh&placePath=%2Fhome%3Fentry=pll'
-                                           target="_black">NAVER</a>&nbsp;&nbsp;
+                                        id="naver" data-lang="naver" target="_black">NAVER</a>&nbsp;&nbsp;
                                         <a href='https://www.google.com/maps/place/%EA%B2%BD%EA%B8%B0%EB%8F%84+%EA%B4%91%EC%A3%BC%EC%8B%9C+%EA%B3%A4%EC%A7%80%EC%95%94%EC%9D%8D+%EB%8F%85%EA%B3%A0%EA%B0%9C%EA%B8%B8+87/data=!4m2!3m1!1s0x3563552366df7257:0xd4f7219624f44ede?sa=X&ved=2ahUKEwjWo4vvtu7xAhUEZ94KHXPCDXgQ8gEwAHoECAoQAQ'
-                                           target="_black">GOOGLE</a>
+                                        id="google" data-lang="google" target="_black">GOOGLE</a>
                                     </p>
                                         
                                         

@@ -18,6 +18,9 @@ const lang = {
         box1: "ADDRESS",
         box2: "EMAIL",
         box3: "PHONE",
+        language: "한국어",
+        naver: "NAVER",
+        google: "GOOGLE",
 
 
     },
@@ -39,6 +42,11 @@ const lang = {
         box1: "주소",
         box2: "이메일",
         box3: "연락처",
+        language: "English",
+        naver: "네이버",
+        google: "구글",
+
+
 
         
     }
@@ -75,3 +83,17 @@ document.getElementById("btn-en").addEventListener("click", e => {
 document.getElementById("btn-ko").addEventListener("click", e => {
     render("ko")
 })
+
+function changeLanguage() {
+    var langSelect = document.getElementById("dropdown"); // select element에서 선택된 option의 value가 저장된다. 
+    var selectValue = langSelect.options[langSelect.selectedIndex].value; // select element에서 선택된 option의 text가 저장된다. 
+    var selectText = langSelect.options[langSelect.selectedIndex].text;
+    // alert(selectValue)
+    // alert(selectText)
+
+    if (selectText == "한국어") {
+        render("ko")
+    } else {
+        render("en")
+    }
+}
