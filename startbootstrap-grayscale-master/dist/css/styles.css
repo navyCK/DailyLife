@@ -11069,6 +11069,7 @@ body {
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
+  
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11242,7 +11243,7 @@ body {
 .signup-section {
   padding: 10rem 0;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("../assets/img/white.jpg"); */
-  background: linear-gradient(to bottom, rgba(20, 20, 20, 0) 10%,
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%,
                                         rgba(20, 20, 20, 0.2) 25%,
                                         rgba(20, 20, 20, 0.4) 50%,
                                         rgba(20, 20, 20, 0.6) 75%,
@@ -11460,6 +11461,7 @@ nav li {
   font-size: 3em;
 }
 
+
 .font_Mapo2 {
   font-family: 'MapoDPPA';
   letter-spacing: 0.2em;
@@ -11522,3 +11524,28 @@ nav li {
 .display-none {
   display: none;
 }
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: black;
+  font-size: 18px;
+  margin: 8px 16px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 16px;
+}
+
+.display-change {
+  display: static;
+}
+
+
