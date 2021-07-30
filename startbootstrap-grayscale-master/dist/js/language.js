@@ -21,6 +21,7 @@ const lang = {
         language: "한국어",
         naver: "NAVER",
         google: "GOOGLE",
+        page2_text: "Woosung Electric Industrial Co., Ltd. has professional knowledge since 1974, and has knowledge of occupations in all industries.",
 
 
     },
@@ -45,6 +46,7 @@ const lang = {
         language: "English",
         naver: "네이버",
         google: "구글",
+        page2_text: "우성전기공업 주식회사는 1974년 창립이래 한결같은 특수 전선 및 튜브을 생산해 온 업체로써, 모든 산업의 기반이 되는 소재 산업 분야에서 독보적인 두각을 나타내어 세계적으로 경쟁력을 갖춘 회사입니다.",
 
 
 
