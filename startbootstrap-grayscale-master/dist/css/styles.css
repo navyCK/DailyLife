@@ -11112,7 +11112,7 @@ body {
     color: black;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #d7d7d7;
   }
   #mainNav .nav-link:active {
     color: #fff;
