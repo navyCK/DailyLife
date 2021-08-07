@@ -78,13 +78,7 @@ function render(locale) {
     })
 }
 
-// 버튼 이벤트
-document.getElementById("btn-en").addEventListener("click", e => {
-    render("en")
-})
-document.getElementById("btn-ko").addEventListener("click", e => {
-    render("ko")
-})
+
 
 function changeLanguage() {
     var langSelect = document.getElementById("dropdown"); // select element에서 선택된 option의 value가 저장된다. 
