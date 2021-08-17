@@ -189,7 +189,7 @@
             content:" ";
             display:block;
             position:absolute;
-            left:34%;
+            left:35.5%;
             margin-left:-2px;
             width:3px;
             height:100%;
@@ -198,7 +198,7 @@
         }
 
         .history ul li:nth-child(odd) {
-            padding-left:34%;
+            padding-left:36%;
             width:65%;
             text-align: start;
         }
@@ -206,7 +206,7 @@
         .history ul li {
             position:relative;
             margin-bottom:10px;
-            width:29%;
+            width:31%;
             text-align: right;
         }
 
@@ -233,7 +233,7 @@
             content:" ";
             display:block;
             position:absolute;
-            left:40%;
+            left:48%;
             margin-left:-2px;
             width:3px;
             height:100%;
@@ -242,7 +242,7 @@
         }
 
         .history ul li:nth-child(odd) {
-            padding-left:40%;
+            padding-left:49%;
             width:80%;
             text-align: start;
         }
@@ -250,7 +250,7 @@
         .history ul li {
             position:relative;
             margin-bottom:10px;
-            width:35%;
+            width:42%;
             text-align: right;
         }
 
