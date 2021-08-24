@@ -11583,7 +11583,15 @@ nav li {
 .font_pretendard1 {
   font-family: 'Pretendard-Regular';
   letter-spacing: 0.2em;
-  font-size: 1.4em;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .font_pretendard1 {
+    font-family: 'Pretendard-Regular';
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+  }
 }
 
 .font_pretendard2 {
