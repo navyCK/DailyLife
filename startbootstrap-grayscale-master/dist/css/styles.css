@@ -1410,6 +1410,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
 @media (min-width: 992px) {
   .col-lg-auto {
     flex: 0 0 auto;
@@ -1444,8 +1445,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    display: flex;
-    align-items: center;
+    text-align: center;
   }
 
   .col-lg-7 {
@@ -9482,6 +9482,10 @@ textarea.form-control-lg {
 
   .mb-lg-5 {
     margin-bottom: 3rem !important;
+  }
+
+  .mb-lg-10 {
+    margin-bottom: 10rem !important;
   }
 
   .mb-lg-auto {
