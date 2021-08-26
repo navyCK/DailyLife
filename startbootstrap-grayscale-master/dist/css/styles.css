@@ -11640,3 +11640,13 @@ nav li {
   width: calc(100% - (20px * 2));
   margin: 20px;
 }
+
+.image_height {
+  height: 700px;
+  width: auto;
+}
+
+.image_grid {
+  height: 200px;
+  width: auto;
+}
