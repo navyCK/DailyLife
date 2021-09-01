@@ -11650,3 +11650,20 @@ nav li {
   height: 200px;
   width: auto;
 }
+
+.history_style {
+  overflow-x: hidden; 
+  height: 40em; 
+  padding:10px; 
+  background-color:white;
+}
+
+.patent_style {
+  float: left; 
+  width: 33%
+}
+
+.certification_style {
+  float: left; 
+  width: 50%
+}
