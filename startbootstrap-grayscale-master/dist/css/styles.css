@@ -11667,3 +11667,14 @@ nav li {
   float: left; 
   width: 50%
 }
+
+.table_simple {
+  width: 100%;
+  height: auto;
+  border-spacing: 5px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
