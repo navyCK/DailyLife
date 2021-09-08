@@ -21,7 +21,7 @@ const lang = {
         language: "한국어",
         naver: "NAVER",
         google: "GOOGLE",
-        history_01_text: "Woosung Electric Industries is a company that has produced consistent special wires and tubes since its foundation in 1974,",
+        history_01_text: "Woosung Corporation has manufactured a special wire, special heat resisting tube and constrictrd tube since 1974 where has worldwide competitives based on high technical skills in all kind of industries that concerns with material industry areas.",
         history_02_text: "It stands out in the material industry, which is the foundation of all industries, making it competitive globally.",
         voltage: "Normal voltage",
         temperature: "Rated temperature",
