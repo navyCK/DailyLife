@@ -183,7 +183,13 @@ strong {
 }
 
 small, .small {
-  font-size: 1em;
+  font-size: 0.75em;
+}
+
+@media (min-width: 768px) {
+  small, .small {
+    font-size: 1em;
+  }
 }
 
 mark, .mark {
