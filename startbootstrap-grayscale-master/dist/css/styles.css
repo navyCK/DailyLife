@@ -2227,7 +2227,6 @@ progress {
           margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
-  pointer-events: none;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -2250,7 +2249,6 @@ progress {
           margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
-  pointer-events: none;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -2464,7 +2462,6 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
-  pointer-events: none;
   filter: none;
   opacity: 0.5;
 }
@@ -2504,10 +2501,8 @@ textarea.form-control-lg {
 .btn-check {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
 }
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
-  pointer-events: none;
   filter: none;
   opacity: 0.65;
 }
@@ -2592,9 +2587,6 @@ textarea.form-control-lg {
   border-color: transparent;
   border-radius: 1rem;
 }
-.form-range:disabled {
-  pointer-events: none;
-}
 .form-range:disabled::-webkit-slider-thumb {
   background-color: #adb5bd;
 }
@@ -2616,7 +2608,6 @@ textarea.form-control-lg {
   left: 0;
   height: 100%;
   padding: 1rem 0.75rem;
-  pointer-events: none;
   border: 1px solid transparent;
   transform-origin: 0 0;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
@@ -2968,7 +2959,6 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
-  pointer-events: none;
   opacity: 0.65;
 }
 
@@ -3827,7 +3817,6 @@ textarea.form-control-lg {
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
-  pointer-events: none;
   background-color: transparent;
 }
 
@@ -4001,7 +3990,6 @@ textarea.form-control-lg {
 }
 .nav-link.disabled {
   color: #6c757d;
-  pointer-events: none;
   cursor: default;
 }
 
@@ -4726,7 +4714,6 @@ textarea.form-control-lg {
 }
 .page-item.disabled .page-link {
   color: #6c757d;
-  pointer-events: none;
   background-color: #fff;
   border-color: #dee2e6;
 }
@@ -5013,7 +5000,6 @@ textarea.form-control-lg {
 }
 .list-group-item.disabled, .list-group-item:disabled {
   color: #6c757d;
-  pointer-events: none;
   background-color: #fff;
 }
 .list-group-item.active {
@@ -5345,7 +5331,6 @@ textarea.form-control-lg {
   opacity: 1;
 }
 .btn-close:disabled, .btn-close.disabled {
-  pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -5361,7 +5346,6 @@ textarea.form-control-lg {
   width: 350px;
   max-width: 100%;
   font-size: 0.875rem;
-  pointer-events: auto;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -5380,7 +5364,6 @@ textarea.form-control-lg {
   width: -moz-max-content;
   width: max-content;
   max-width: 100%;
-  pointer-events: none;
 }
 .toast-container > :not(:last-child) {
   margin-bottom: 0.75rem;
@@ -5424,7 +5407,6 @@ textarea.form-control-lg {
   position: relative;
   width: auto;
   margin: 0.5rem;
-  pointer-events: none;
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
@@ -5464,7 +5446,6 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   width: 100%;
-  pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -7700,14 +7681,6 @@ textarea.form-control-lg {
      -moz-user-select: none !important;
       -ms-user-select: none !important;
           user-select: none !important;
-}
-
-.pe-none {
-  pointer-events: none !important;
-}
-
-.pe-auto {
-  pointer-events: auto !important;
 }
 
 .rounded {
@@ -11111,7 +11084,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: whitesmoke;
   outline: none;
   background-color: transparent;
 }
@@ -11568,7 +11541,7 @@ nav li {
 }
 
 .display-change {
-  display: static;
+  display: block;
 }
 
 
