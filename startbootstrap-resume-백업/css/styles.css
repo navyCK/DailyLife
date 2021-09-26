@@ -11432,7 +11432,6 @@ section.resume-section .resume-section-content {
   font-family: 'MapoDPPA';
   letter-spacing: 0.2em;
   font-size: 1em;
-  word-break: keep-all;
 }
 
 @font-face {
@@ -11446,18 +11445,4 @@ section.resume-section .resume-section-content {
   font-family: 'EliceDigitalBaeum_Bold';
   letter-spacing: 0.2em;
   font-size: 1em;
-}
-
-@font-face {
-  font-family: 'MaruBuri-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.font_Maru {
-  font-family: 'MaruBuri-Regular';
-  letter-spacing: 0.2em;
-  font-size: 1em;
-  word-break: keep-all;
 }
